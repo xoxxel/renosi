@@ -1,0 +1,53 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "820px",
+			"wideSize": "1280px"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{ "slug": "accent", "color": "#0071e3", "name": "رنگ اصلی" },
+				{ "slug": "ink", "color": "#1d1d1f", "name": "متن" },
+				{ "slug": "muted", "color": "#86868b", "name": "خاکستری" },
+				{ "slug": "surface", "color": "#f5f5f7", "name": "سطح روشن" },
+				{ "slug": "border", "color": "#e5e5ea", "name": "خط" },
+				{ "slug": "white", "color": "#ffffff", "name": "سفید" },
+				{ "slug": "success", "color": "#1d8a3a", "name": "موفق" },
+				{ "slug": "danger", "color": "#d70015", "name": "خطا" }
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fontFamilies": [
+				{
+					"slug": "vazirmatn",
+					"name": "Vazirmatn",
+					"fontFamily": "\"Vazirmatn\", system-ui, -apple-system, \"Segoe UI\", Tahoma, sans-serif"
+				}
+			],
+			"fontSizes": [
+				{ "slug": "small", "size": "0.8125rem", "name": "کوچک" },
+				{ "slug": "medium", "size": "1rem", "name": "متوسط" },
+				{ "slug": "large", "size": "1.25rem", "name": "بزرگ" },
+				{ "slug": "x-large", "size": "2rem", "name": "خیلی بزرگ" },
+				{ "slug": "xx-large", "size": "clamp(2.125rem, 1.4rem + 3.4vw, 3.75rem)", "name": "نمایشی" }
+			]
+		},
+		"spacing": {
+			"units": [ "px", "em", "rem", "%", "vw" ]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--vazirmatn)"
+		},
+		"spacing": {
+			"blockGap": "1.25rem"
+		}
+	}
+}

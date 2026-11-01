@@ -67,3 +67,13 @@ docker compose run --rm wpcli wp core install \
 The site is served on port `8080` (mapped to container's Apache port `80`).
 
 To change it, edit `WORDPRESS_PORT` in `.env` and run `docker compose up -d` again.
+
+
+_________________________
+
+# Get Thems
+
+mkdir themes
+docker cp renosi_wordpress:/var/www/html/wp-content/themes/renosi ./themes/renosi
+
+_________________________

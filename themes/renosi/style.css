@@ -1,0 +1,30 @@
+/*!
+Theme Name: Renosi
+Theme URI: https://renosi.ir/
+Author: Renosi
+Author URI: https://renosi.ir/
+Description: قالب فروشگاهی رنوسی — قالبی مدرن، تمیز و ریسپانسیو برای فروشگاه قطعات یدکی خودرو، بر پایه‌ی یک سیستم دیزاین منسجم و سازگار کامل با ووکامرس. شامل جستجوی قطعه بر اساس خودرو، سبد خرید کشویی، منوی موبایل، نوار ناوبری پایین موبایل، و تنظیمات کامل در سفارشی‌ساز.
+Version: 1.4.0
+Requires at least: 6.2
+Tested up to: 6.8
+Requires PHP: 7.4
+WC requires at least: 7.0
+WC tested up to: 10.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: renosi
+Domain Path: /languages
+Tags: e-commerce, rtl-language-support, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, wide-blocks, block-styles, two-columns, right-sidebar
+
+Renosi is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+Vazirmatn font by Saber Rastikerdar, licensed under the SIL Open Font License 1.1.
+*/
+
+/*
+ * استایل‌های اصلی قالب در پوشه‌ی assets/css قرار دارند:
+ *  - assets/css/main.css         سیستم دیزاین، اجزا و چیدمان
+ *  - assets/css/woocommerce.css  استایل صفحات فروشگاه
+ *
+ * برای افزودن استایل سفارشی، از «سفارشی‌سازی ← CSS اضافی» یا یک پوسته‌ی فرزند استفاده کنید.
+ */
